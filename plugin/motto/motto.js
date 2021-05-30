@@ -443,7 +443,7 @@ mingyan.push("{'index':400,'content':'我们别无选择，只能从这个流感
 mingyan.push("{'index':921,'content':'如果一艘船不知道该驶去哪个港口，那么任何方向吹来的风都不会是顺风。 </br> - </br>《塔木德》'}");
 mingyan.push("{'index':1195,'content':'“爱你”二字说出口时多是真心话，后来却无一例外沦为大冒险。</br> - </br>齐鸣宇'}");
 mingyan.push("{'index':655,'content':'一个人下定决心实现愿望，总是有办法的，可是大多数人终其一生都未尝过愿望成真的滋味。人们假装没有钱，没有时间，没有愿望，没有不顾一切的决心，直到真的一无所有。</br> - </br>《藏地情人》'}");
-mingyan.push("{'index':511,'content':'情到深处人孤独。</br> - </br>《是否》'}");
+mingyan.push("{'index':511,'content':'陈，你可以和我心连心吗？</br> - </br>胡琳琳'}");
 mingyan.push("{'index':1153,'content':'对异地恋的人来说，失去联系就是人口失踪，就是世界末日，就是一切可以想到的最坏的事。</br> - </br>方慧'}");
 mingyan.push("{'index':556,'content':'但愿我可以没成长，完全凭直觉觅对象，模糊地迷恋你一场。</br> - </br>张国荣《有心人》'}");
 mingyan.push("{'index':770,'content':'我喜欢你，我不难过；我希望你也喜欢我，我才难过。 </br> - </br>八月长安'}");
@@ -463,14 +463,14 @@ mingyan.push("{'index':108,'content':'懂越多就越像这世界的孤儿，走
 mingyan.push("{'index':441,'content':'以后还有很漫长很漫长的路途，都要一个人走完。都要靠自己。凭借自己的能力去完成，而不是依靠谁。</br> - </br>《千与千寻》'}");
 mingyan.push("{'index':346,'content':'时间是亳不留情的，它真使人在自己制造的镜子里照见自己的真相。</br> - </br>季羡林'}");
 mingyan.push("{'index':988,'content':'你是你自己的裁决者。你过去和现在做得有多好，由你自己说了算。别人永远不能审判你，就算是神。 </br> - </br>《与神对话》'}");
-mingyan.push("{'index':932,'content':'生活的最好状态是冷冷清清的风风火火。 </br> - </br>木心'}");
+mingyan.push("{'index':932,'content':'只要她表现出一点反感，我都不会摸她。 </br> - </br>申时丞'}");
 mingyan.push("{'index':378,'content':'爱就是永远不必说对不起。</br> - </br>《爱情故事》'}");
 mingyan.push("{'index':1351,'content':'我倒宁愿你“怕”的事情越来越多，怕老怕丑怕出洋相，唯有这样自制，才能真正成长为体面的、顶天立地的人。 </br> - </br>陈大力'}");
 mingyan.push("{'index':626,'content':'情感的发生一定能找得出缘由吗？喜欢就是一个坏掉的水龙头，理智告诉你不值得，可怎么拧紧都是徒劳，感情覆水难收。</br> - </br>八月长安'}");
 mingyan.push("{'index':314,'content':'世上有两样东西不可直视，一是太阳，二是人心。</br> - </br>东野圭吾'}");
 mingyan.push("{'index':114,'content':'太平盛时，人易为乐。</br> - </br>《马伶传》'}");
 mingyan.push("{'index':424,'content':'别轻蔑少年时期感动过的东西。</br> - </br>黄永玉'}");
-mingyan.push("{'index':712,'content':'若不问来路与去程，人生就容易得多。</br> - </br>陶立夏'}");
+mingyan.push("{'index':712,'content':'我曾经的项目——wjjispdl.fun</br> - </br>孙膑'}");
 mingyan.push("{'index':954,'content':'我想保有爱的神与魂，使之存活在我的肉体中，熬过那副肉体蒙受屈辱的漫长岁月。</br> - </br>《自深深处》'}");
 mingyan.push("{'index':1236,'content':'或许思念和肌肉一样，长久不动就可以缓缓消失在身体里。</br> - </br>韩今谅'}");
 mingyan.push("{'index':897,'content':'我愿意把时间给你，你也愿意把时间给我，我们愿意一起玩，这是一切爱的原型。 </br> - </br>连岳'}");
