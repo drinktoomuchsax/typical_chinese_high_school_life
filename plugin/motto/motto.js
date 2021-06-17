@@ -470,8 +470,8 @@ mingyan.push("{'index':626,'content':'情感的发生一定能找得出缘由吗
 mingyan.push("{'index':314,'content':'世上有两样东西不可直视，一是太阳，二是人心。</br> - </br>东野圭吾'}");
 mingyan.push("{'index':114,'content':'太平盛时，人易为乐。</br> - </br>《马伶传》'}");
 mingyan.push("{'index':424,'content':'别轻蔑少年时期感动过的东西。</br> - </br>黄永玉'}");
-mingyan.push("{'index':712,'content':'我曾经的项目——wjjispdl.fun</br> - </br>孙膑'}");
-mingyan.push("{'index':954,'content':'我想保有爱的神与魂，使之存活在我的肉体中，熬过那副肉体蒙受屈辱的漫长岁月。</br> - </br>《自深深处》'}");
+mingyan.push("{'index':712,'content':'我曾经的项目——xxxispdl.fun</br> - </br>孙膑'}");
+mingyan.push("{'index':954,'content':'我喜欢冬天。</br> - </br>《刘宇轩的学生证》'}");
 mingyan.push("{'index':1236,'content':'或许思念和肌肉一样，长久不动就可以缓缓消失在身体里。</br> - </br>韩今谅'}");
 mingyan.push("{'index':897,'content':'我愿意把时间给你，你也愿意把时间给我，我们愿意一起玩，这是一切爱的原型。 </br> - </br>连岳'}");
 mingyan.push("{'index':407,'content':'每个人都会死，但不是每个人都真正活过。</br> - </br>《勇敢的心》'}");
