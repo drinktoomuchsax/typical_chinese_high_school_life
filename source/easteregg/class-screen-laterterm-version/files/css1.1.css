@@ -1,0 +1,70 @@
+﻿.now/*now*/
+{
+	font-size:188px;
+	font-family:微软雅黑;
+	color:#3cb371;
+	text-shadow:0px 0px 30px #6495ed;
+}
+.xiao/*min和s*/
+{
+	font-size:180px;
+	font-family:微软雅黑;
+	color:#3cb371;
+	text-shadow:0px 0px 30px #6495ed;
+}
+.da/*d和h*/
+{
+	font-size:200px;
+	font-family:微软雅黑;
+	color:#3cb371;
+	text-shadow:0px 0px 30px #6495ed;
+}
+.xiaon/*现在的时间*/
+{
+	font-size:208px;
+	font-family:MS Gothic;
+	color:#FFFFFF;
+}
+.das/*剩余天和时*/
+{
+	font-size:308px;
+	font-family:MS Gothic;
+	color:#FFFFFF;
+}
+.xiaos/*剩余秒和分*/
+{
+	font-size:308px;
+	font-family:MS Gothic;
+	color:#FFFFFF;
+}
+.hide/*要隐藏的空格*/
+{
+	font-size:80px;
+	visibility:hidden;
+}
+.fu/*闪烁的日期时间间隔符*/
+{
+	font-size:138px;
+	color:#3cb371;
+	text-shadow:0px 0px 10px #6495ed;
+}
+.para/*before高考*/
+{
+	font-size:120px;
+	font-family:微软雅黑;
+	color:#FFFFFF;
+	text-shadow:0px 0px 20px #778899;
+}
+.authorname/*老子的名字*/
+{
+	font-size:900px;
+	color:#FFFFFF;
+}
+.kecheng/*课程表*/
+{
+	font-size:108px;
+	font-family:微软雅黑;
+	color:#3cb371;
+	text-shadow:0px 0px 20px #6495ed;
+}
+
