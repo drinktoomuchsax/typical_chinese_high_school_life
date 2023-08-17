@@ -1,0 +1,60 @@
+<% 
+	let currentPostTitle = post.title, 
+		relatePostsArry = [],
+		result =[],
+		postsEnable = theme.relate.enable,
+		postsLimt = theme.relate.posts_limit,
+		postsExcerpt = theme.relate.posts_excerpt,
+		sitePostsLen = site.posts.length;
+
+    //To check that post exists in postArray?
+    function checkDup(post, postArray){
+     	if(post){
+	        let title = post.title, 
+	            id = post.id;
+	        for (let i = 0; i < postArray.length; i++){        
+	                if(postArray[i]){
+	                    if(title === postArray[i].title && id === postArray[i].id){
+	                        return true;
+	                    }
+	                }
+	        }
+        }
+        return false;
+    }
+
+	//Get all related posts by tag.name or category.name & Remove duplicate posts.
+	function getPosts(){		
+		post.categories.forEach(function(category, i){
+			site.categories.findOne({'name': category.name}).posts.sort('date', 'desc').each(function(post) {
+				if( (post.title !== currentPostTitle) && !checkDup(post, relatePostsArry) )
+					relatePostsArry.push(post);
+			});
+		});	
+		
+		post.tags.forEach(function(tag, i){
+			site.tags.findOne({'name': tag.name}).posts.sort('date', 'desc').each(function(post) {
+				//Remove duplicate posts.
+				if( (post.title !== currentPostTitle) && !checkDup(post, relatePostsArry) )
+					relatePostsArry.push(post);	
+			});
+		});
+		
+		if(relatePostsArry.length < postsLimt){
+			let distance = postsLimt - relatePostsArry.length, ij = 0;
+			site.posts.sort('date', 'desc').each(function(post) { 
+				if((post.title !== currentPostTitle) && !checkDup(post, relatePostsArry) && (ij < distance)){
+					relatePostsArry.push(post);
+					ij++;
+				}
+				if(ij >= distance)	
+					return relatePostsArry;
+			});
+		}
+		return relatePostsArry;
+	}
+
+	if( (postsEnable == true) && (sitePostsLen > 1) ){
+		result = getPosts();
+	}	
+%>
