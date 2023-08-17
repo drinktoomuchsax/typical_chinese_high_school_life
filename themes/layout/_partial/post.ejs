@@ -1,0 +1,41 @@
+<%- partial('plugin/toc', {post: post}) %> 
+
+<div class="layout-post">
+	<div id="layout-post">
+		<div class="article-title">
+			<%- partial('post/title', {post: post}) %>
+		</div>
+
+		<div class="article-meta">
+			<span>
+				<i class="icon-calendar1"></i>
+				<%# partial('post/date', {post: post, type: 'publish'}) %>
+				<%- partial('post/date', {post: post, type: 'update'}) %>
+			</span>
+			
+			<%- partial('post-like') %>
+		</div>
+
+		<div class="article-content" id="article-content">
+			<%- post.content %>	
+		</div>
+		
+		<div id="current-post-cover" data-scr="<%- url_for(post.cover || theme.cover) %>"></div>
+			
+			<div class="investment-content">
+				<div class="investment-content-list">
+					<%- partial('post-relate') %>	
+				</div>
+				<div class="investment-content-list">
+					<%- partial('plugin/comment') %>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+
+<%- partial('plugin/mathjax', {post: post}) %>
+
+<%- partial('plugin/clipboard', {post: post, type: "code-copy"}) %>
+
+<%- partial('post/gallery', {post: post}) %>
